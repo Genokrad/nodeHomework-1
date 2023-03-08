@@ -33,36 +33,6 @@ program
 program.parse();
 
 const options = program.opts();
-// console.log(options);
+console.log(program);
+
 getAction(options);
-
-// getAction({ action: "list" });
-// getAction({ action: "getById", id: "11" });
-// getAction({ action: "deleteById", id: "11" });
-// getAction({
-//   action: "addContact",
-//   name: "Alec Howard",
-//   email: "Donec.elementum@scelerisquescelerisquedui.net",
-//   phone: "(748) 206-2688",
-// });
-
-// const actionIndex = process.argv.indexOf("--action");
-// const action = process.argv[actionIndex + 1];
-
-// console.log(process.argv);
-// console.log(actionIndex);
-
-// // if (actionIndex !== -1) {
-// //   getAction({ action, id });
-// // } else {
-// //   console.log("unknown action");
-// // }
-
-// if (actionIndex !== -1) {
-//   if (action === "getById") {
-//     const id = process.argv[actionIndex + 2];
-//     getAction({ action, id });
-//   }
-// } else {
-//   console.log("unknown action");
-// }
