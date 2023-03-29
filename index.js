@@ -33,6 +33,6 @@ program
 program.parse();
 
 const options = program.opts();
-console.log(program);
+// console.log(program);
 
 getAction(options);
